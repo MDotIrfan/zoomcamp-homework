@@ -21,8 +21,8 @@ df = pd.read_csv(r'E:/zoomcamp/data.csv')
 # mean_hp_before = df['Engine HP'].mean()
 # fill = df.fillna(0)
 # mean_hp_after = fill['Engine HP'].mean()
-# print('fill mean= \n', round(mean_hp_after))
-# print('ori mean= \n', round(mean_hp_before))
+# print('fill mean= ', round(mean_hp_after))
+# print('ori mean= ', round(mean_hp_before))
 
 # no 6
 data_1 = df.loc[df['Make']=='Rolls-Royce']
